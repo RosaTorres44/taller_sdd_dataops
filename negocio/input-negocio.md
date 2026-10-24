@@ -17,6 +17,6 @@
 
 ## Lo que completamos en clase
 
-- ¿Cuál es la meta del indicador de Carmen? (por ejemplo, pasar de X % a Y %): ______
-- Cuando hay un duplicado, ¿cuál registro manda?: ______
-- ¿Qué pasa si una regla de calidad falla un lunes: se detiene la carga o se envía con advertencia?: ______
+- ¿Cuál es la meta del indicador de Carmen? (por ejemplo, pasar de X % a Y %): Pasar de 30% (línea base actual) a un mínimo de 60%.
+- Cuando hay un duplicado, ¿cuál registro manda?: Manda el primer registro válido procesado (descartando duplicados exactos en Silver).
+- ¿Qué pasa si una regla de calidad falla un lunes: se detiene la carga o se envía con advertencia?: Se detiene la carga a Gold (se cancela la propagación a analítica para proteger datos históricos) y se genera alerta.
